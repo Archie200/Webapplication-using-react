@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1645787449348-ad6df9359bda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 600px;
+}
+
+.header {
+    height: 140px;
+    width: 100%;
+
+
+    padding-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.661);
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+button {
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    color: #333;
+    font-size: 18px;
+}
+
+table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.welcome {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#name1,
+#name2,
+#name3,
+#name4,
+#name5,
+#name6,
+#email1,
+#email2,
+#email3,
+#email4,
+#email5,
+#email6 {
+    color: #00d5ffb4; /* Replace with your desired color */
+}
